@@ -8,7 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 import os
 # Set the GOOGLE_API_KEY environment variable
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDIl6UG4FWpAtf8_gLD_Wq0GiPRDSAGNEQ"
+os.environ["GOOGLE_API_KEY"] = "GOOGLE_API_KEY"
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 # Initialize Gemini model
