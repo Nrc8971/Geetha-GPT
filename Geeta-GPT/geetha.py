@@ -52,7 +52,7 @@ def main():
         st.session_state.messages.append({'role':'You', 'content': prompt})
 
         CUSTOM_PROMPT_TEMPLATE = """Final Prompt: Use the following pieces of information to answer the user's question.
-    If you don't know the answer, just say that you don't know; strictly don't add anything from your side.
+    If you don't know the answers, just say that you don't know; strictly don't add anything from your side.
 
     Context: {context}
     Question: {question}
